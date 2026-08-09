@@ -24,9 +24,17 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Export theme PNGs
+        env:
+          # Inkscape 1.4.4; Ubuntu apt is still 1.2.2.
+          INKSCAPE_APPIMAGE_URL: https://media.inkscape.org/media/resources/file/Inkscape-1.4.4.AppImage
+          INKSCAPE_APPIMAGE_SHA256: d217fe05c92faaed5c3af46856b6299c98933dc722819cb5bc2ca052c5522166
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq inkscape
+          curl -fsSL -o inkscape.AppImage "$INKSCAPE_APPIMAGE_URL"
+          echo "$INKSCAPE_APPIMAGE_SHA256  inkscape.AppImage" | sha256sum -c -
+          chmod +x inkscape.AppImage
+          ./inkscape.AppImage --appimage-extract
+          export PATH="$PWD/squashfs-root/usr/bin:$PATH"
+          inkscape --version
           cd theme && ./themepack-helper.sh
 
       - name: Prepare
