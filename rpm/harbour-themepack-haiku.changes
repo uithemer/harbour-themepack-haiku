@@ -1,7 +1,10 @@
-* Sun May 31 2026 Francesco Vaccaro <me@fravaccaro.com> - 0.1.0-5
+* Sat Aug 15 2026 0.1.4-1
+- Fix icon color space
+
+* Sun May 31 2026 0.1.0-5
 - Ship exported icon PNGs in the RPM (match Numix Circle packaging).
 - CI runs themepack-helper before sfdk build.
 
-* Sun May 31 2026 Francesco Vaccaro <me@fravaccaro.com> - 0.1.0-1
+* Sun May 31 2026 0.1.0-1
 - Companion app for Muoto; DejaVu Sans fonts and Haiku-style icons.
 - Tutorial launcher uses FAQ icon from hvif-store.art; app branded with Haiku leaf.
