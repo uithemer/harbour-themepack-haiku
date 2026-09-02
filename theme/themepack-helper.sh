@@ -21,6 +21,7 @@
 # Usage
 # Place some icons in scalable folders and launch this script from the theme folder.
 
+set -euo pipefail
 shopt -s nullglob
 
 cd "$(dirname "$0")" || exit 1
@@ -31,6 +32,8 @@ if inkscape --version 2>/dev/null | grep -q '^Inkscape 0\.'; then
 fi
 echo "Using Inkscape $(inkscape --version 2>/dev/null | head -1)" >&2
 
+EXPORTED_PNGS=()
+
 export_svg_legacy() {
     local input="$1"
     local width="$2"
@@ -40,6 +43,7 @@ export_svg_legacy() {
     mkdir -p "$(dirname "$output")"
     echo "Exporting $input → $output" >&2
     inkscape -f "$input" -w "$width" -h "$height" -e "$output"
+    EXPORTED_PNGS+=("$output")
 }
 
 # Usage: export_svg_sizes INPUT W H OUTPUT [W H OUTPUT ...]
@@ -55,7 +59,7 @@ export_svg_sizes() {
         return
     fi
 
-    local actions="export-type:png"
+    local actions="export-area-page;export-png-color-mode:RGBA_8;export-type:png"
     while [ $# -ge 3 ]; do
         local w=$1
         local h=$2
@@ -64,10 +68,82 @@ export_svg_sizes() {
         mkdir -p "$(dirname "$out")"
         out_abs="$(realpath -m "$out")"
         echo "Exporting $input → $out" >&2
-        actions="${actions};export-filename:${out_abs};export-width:${w};export-height:${h};export-do"
+        actions="${actions};export-area-page;export-filename:${out_abs};export-width:${w};export-height:${h};export-do"
+        EXPORTED_PNGS+=("$out")
         shift 3
     done
     inkscape "$input" --actions="$actions"
+}
+
+normalize_pngs() {
+    local f tmp
+    if [ "${#EXPORTED_PNGS[@]}" -eq 0 ]; then
+        return 0
+    fi
+    if ! command -v convert >/dev/null 2>&1; then
+        echo "error: ImageMagick 'convert' is required to write 8-bit RGBA PNGs" >&2
+        exit 1
+    fi
+    echo "==> Normalizing PNGs to 8-bit RGBA" >&2
+    for f in "${EXPORTED_PNGS[@]}"; do
+        tmp="${f}.png32.tmp"
+        convert "$f" -strip -define png:color-type=6 -define png:bit-depth=8 PNG32:"$tmp"
+        mv -f "$tmp" "$f"
+    done
+}
+
+# Fail if a Jolla PNG is not the expected size or not 8-bit RGBA.
+verify_jolla_pngs() {
+    python3 - <<'PY'
+import os, struct, sys
+
+expected = {
+    "z1.0": 86,
+    "z1.25": 108,
+    "z1.5": 129,
+    "z1.5-large": 129,
+    "z1.75": 151,
+    "z2.0": 172,
+}
+
+errors = []
+root = "jolla"
+if not os.path.isdir(root):
+    sys.exit(0)
+
+for dirpath, _, files in os.walk(root):
+    for name in files:
+        if not name.endswith(".png"):
+            continue
+        path = os.path.join(dirpath, name)
+        parts = path.split(os.sep)
+        tier = next((p for p in parts if p in expected), None)
+        if tier is None:
+            continue
+        want = expected[tier]
+        with open(path, "rb") as fh:
+            if fh.read(8) != b"\x89PNG\r\n\x1a\n":
+                errors.append("%s: not a PNG" % path)
+                continue
+            length = struct.unpack(">I", fh.read(4))[0]
+            ctype = fh.read(4)
+            data = fh.read(length)
+            if ctype != b"IHDR" or len(data) < 13:
+                errors.append("%s: missing IHDR" % path)
+                continue
+            w, h, bit, color = struct.unpack(">IIBB", data[:10])
+        if (w, h) != (want, want):
+            errors.append("%s: %dx%d (expected %dx%d)" % (path, w, h, want, want))
+        if bit != 8 or color != 6:
+            errors.append("%s: bit=%d color=%d (expected 8-bit RGBA)" % (path, bit, color))
+
+if errors:
+    print("Jolla PNG verification failed:", file=sys.stderr)
+    for err in errors:
+        print("  " + err, file=sys.stderr)
+    sys.exit(1)
+print("Jolla PNG verification OK", file=sys.stderr)
+PY
 }
 
 # Resize Jolla stock icons
@@ -146,5 +222,8 @@ if [ -d ./overlay ] && [ "$(ls -A ./overlay/*.svg 2>/dev/null)" ]; then
             512 512 "./overlay/$destFile"
     done
 fi
+
+normalize_pngs
+verify_jolla_pngs
 
 exit 0

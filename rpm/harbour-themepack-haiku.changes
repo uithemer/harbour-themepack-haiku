@@ -1,4 +1,4 @@
-* Wed Sep 02 2026 fravaccaro - 0.1.3-5
+* Wed Sep 02 2026 fravaccaro - 0.1.4-2
 - Normalise gradient coordinate systems so cairo-based renderers no longer clip
   gradient-filled shapes; fixes File Browser, MeeCast, ToDo List, AllRadio2,
   ownKeepass, Firefox and several Jolla launcher icons.
@@ -6,6 +6,11 @@
   repair stale symlinks, instead of failing on every upgrade.
 - Undo that relocation in %preun so uninstalling no longer floods the terminal
   with "remove failed" warnings and leaves nothing behind.
+- CI verifies the committed PNGs against their SVG sources instead of silently
+  re-exporting them at build time.
+
+* Sat Aug 15 2026 fravaccaro - 0.1.4-1
+- Fix icon color space
 
 * Sun May 31 2026 fravaccaro - 0.1.0-5
 - Ship exported icon PNGs in the RPM (match Numix Circle packaging).
