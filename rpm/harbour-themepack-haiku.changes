@@ -1,4 +1,4 @@
-* Wed Sep 02 2026 fravaccaro - 0.1.4-2
+* Wed Sep 02 2026 fravaccaro - 0.1.6-1
 - Normalise gradient coordinate systems so cairo-based renderers no longer clip
   gradient-filled shapes; fixes File Browser, MeeCast, ToDo List, AllRadio2,
   ownKeepass, Firefox and several Jolla launcher icons.
