@@ -14,7 +14,7 @@ Name:       harbour-themepack-haiku
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:        Haiku theme pack
 Version:        0.1.6
-Release:        2
+Release:        3
 Group:          Qt/Qt
 License:        GPLv3
 Packager:       fravaccaro

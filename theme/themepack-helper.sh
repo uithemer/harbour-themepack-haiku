@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 #    Theme pack support for Sailfish OS - Enables theme pack support in Sailfish OS.
-#    Copyright (C) 2015-2016  fravaccaro fravaccaro90@gmail.com - Initial release
+#    Copyright (C) 2015-2016  fravaccaro me@fravaccaro.com - Initial release
 #    Copyright (C) 2016  dfstorm dfstorm@riseup.net - Change from ImageMagik to Inkscape
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -32,8 +32,6 @@ if inkscape --version 2>/dev/null | grep -q '^Inkscape 0\.'; then
 fi
 echo "Using Inkscape $(inkscape --version 2>/dev/null | head -1)" >&2
 
-EXPORTED_PNGS=()
-
 export_svg_legacy() {
     local input="$1"
     local width="$2"
@@ -43,7 +41,6 @@ export_svg_legacy() {
     mkdir -p "$(dirname "$output")"
     echo "Exporting $input → $output" >&2
     inkscape -f "$input" -w "$width" -h "$height" -e "$output"
-    EXPORTED_PNGS+=("$output")
 }
 
 # Usage: export_svg_sizes INPUT W H OUTPUT [W H OUTPUT ...]
@@ -69,27 +66,9 @@ export_svg_sizes() {
         out_abs="$(realpath -m "$out")"
         echo "Exporting $input → $out" >&2
         actions="${actions};export-area-page;export-filename:${out_abs};export-width:${w};export-height:${h};export-do"
-        EXPORTED_PNGS+=("$out")
         shift 3
     done
     inkscape "$input" --actions="$actions"
-}
-
-normalize_pngs() {
-    local f tmp
-    if [ "${#EXPORTED_PNGS[@]}" -eq 0 ]; then
-        return 0
-    fi
-    if ! command -v convert >/dev/null 2>&1; then
-        echo "error: ImageMagick 'convert' is required to write 8-bit RGBA PNGs" >&2
-        exit 1
-    fi
-    echo "==> Normalizing PNGs to 8-bit RGBA" >&2
-    for f in "${EXPORTED_PNGS[@]}"; do
-        tmp="${f}.png32.tmp"
-        convert "$f" -strip -define png:color-type=6 -define png:bit-depth=8 PNG32:"$tmp"
-        mv -f "$tmp" "$f"
-    done
 }
 
 # Fail if a Jolla PNG is not the expected size or not 8-bit RGBA.
@@ -223,7 +202,6 @@ if [ -d ./overlay ] && [ "$(ls -A ./overlay/*.svg 2>/dev/null)" ]; then
     done
 fi
 
-normalize_pngs
 verify_jolla_pngs
 
 exit 0

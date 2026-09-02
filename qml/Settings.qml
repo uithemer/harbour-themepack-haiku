@@ -23,6 +23,8 @@ QtObject {
 
     readonly property var translators: [
         { language: "Italiano", name: "fravaccaro" },
+        { language: "Nederlands", name: "Nathan Follens" },
+        { language: "Neerlandais (Belgique)", name: "Nathan Follens" },
     ]
 
     readonly property string packInstallPath: "/usr/share/harbour-themepack-haiku"
