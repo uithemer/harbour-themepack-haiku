@@ -3,7 +3,7 @@
 <path id="shape_1" d="M 1428 4080 C 1428 4080 4488 4080 4488 4080 C 4488 4080 3468 591 3468 591 C 3439 414 3252 204 2958 204 C 2659 204 2472 412 2448 591 C 2448 591 1428 4080 1428 4080 Z M 2652 2856 C 2652 2856 204 4488 204 4488 C 204 4488 204 4692 204 4692 C 204 4692 3468 6324 3468 6324 C 3468 6324 5712 4080 5712 4080 C 5712 4080 5712 3876 5712 3876 C 5712 3876 2652 2856 2652 2856 Z " style="stroke-width:408;stroke-linejoin:miter;stroke-linecap:butt;stroke:#000000;fill:none;" />
 <g>
 <defs>
-<linearGradient id="id1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.213326,0,0,0.196198,4513.08,4734.46)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="id1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.042737,0,0,0.959015,4513.08,4734.46)" x1="-1335.516718" x2="1335.516718" y1="-1335.516718" y2="-1335.516718">
 <stop offset="0%" stop-color="#7c4503" />
 <stop offset="100%" stop-color="#d38933" />
 </linearGradient>
@@ -13,7 +13,7 @@
 <path id="shape_3" d="M 204 4692 C 204 4692 204 4488 204 4488 C 204 4488 3468 6018 3468 6018 C 3468 6018 3468 6324 3468 6324 C 3468 6324 204 4692 204 4692 Z " style="fill:#f2a541;stroke:none;" />
 <g>
 <defs>
-<linearGradient id="id2" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.434446,0,0,0.399561,3170.45,3499.6)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="id2" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.042741,0,0,0.959011,3170.45,3499.6)" x1="-2719.81643" x2="2719.81643" y1="-2719.81643" y2="-2719.81643">
 <stop offset="0%" stop-color="#ffe8cf" />
 <stop offset="49.8%" stop-color="#d18021" />
 <stop offset="100%" stop-color="#f49119" />
@@ -23,7 +23,7 @@
 </g>
 <g>
 <defs>
-<linearGradient id="id3" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.168821,0,0,0.399561,5286.94,2760.11)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="id3" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.650012,0,0,1.538432,5286.94,2760.11)" x1="-1695.449762" x2="1695.449762" y1="-1695.449762" y2="-1695.449762">
 <stop offset="0%" stop-color="#a94604" />
 <stop offset="100%" stop-color="#dc7d0b" />
 </linearGradient>
@@ -32,7 +32,7 @@
 </g>
 <g>
 <defs>
-<linearGradient id="id4" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.241487,0,0,0.212842,3068.45,2862.75)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="id4" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.065168,0,0,0.938819,3068.45,2862.75)" x1="-1479.979465" x2="1479.979465" y1="-1479.979465" y2="-1479.979465">
 <stop offset="0%" stop-color="#ffe8cf" />
 <stop offset="49.8%" stop-color="#b96205" />
 <stop offset="100%" stop-color="#d47505" />
@@ -42,7 +42,7 @@
 </g>
 <g>
 <defs>
-<linearGradient id="id5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.164179,0,0,0.144705,3067.87,3802.66)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="id5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.065165,0,0,0.938821,3067.87,3802.66)" x1="-1006.19167" x2="1006.19167" y1="-1006.19167" y2="-1006.19167">
 <stop offset="0%" stop-color="#ffe8cf" />
 <stop offset="49.8%" stop-color="#c36e0a" />
 <stop offset="100%" stop-color="#ea8713" />
@@ -52,7 +52,7 @@
 </g>
 <g>
 <defs>
-<linearGradient id="id6" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.205091,0,0,0.173232,3067.87,4130.45)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="id6" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.088076,0,0,0.919053,3067.87,4130.45)" x1="-1230.460019" x2="1230.460019" y1="-1230.460019" y2="-1230.460019">
 <stop offset="0%" stop-color="#ffffff" />
 <stop offset="49.8%" stop-color="#cccccc" />
 <stop offset="100%" stop-color="#e4e4e4" />
@@ -62,7 +62,7 @@
 </g>
 <g>
 <defs>
-<linearGradient id="id7" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.0909,0,0,0.080118,3068.16,1582.48)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="id7" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.065165,0,0,0.938822,3068.16,1582.48)" x1="-557.092276" x2="557.092276" y1="-557.092276" y2="-557.092276">
 <stop offset="0%" stop-color="#ffe8cf" />
 <stop offset="49.8%" stop-color="#c57210" />
 <stop offset="100%" stop-color="#f49119" />

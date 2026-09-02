@@ -3,7 +3,7 @@
 <path id="shape_2" d="M 1326 4284 C 1326 4284 1836 5304 1836 5304 C 1938 5508 2346 5712 2754 5712 C 3162 5712 3570 5508 3672 5304 C 3672 5304 4080 4284 4080 4284 " style="fill:none;stroke:#010101;stroke-width:408;stroke-linejoin:miter;stroke-linecap:butt" />
 <g>
 <defs>
-<radialGradient id="grad1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.312500 0.000000 0.000000 0.416666 3264.00 4011.99)" cx="0" cy="0" r="6528">
+<radialGradient id="grad1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.866026,0,0,1.1547,3264,4011.99)" cx="0" cy="0" r="2355.587214">
 <stop offset="39.61%" stop-color="#926103" />
 <stop offset="100.00%" stop-color="#ffc452" />
 </radialGradient>
@@ -14,7 +14,7 @@
 <path id="shape_5" d="M 1020 3876 C 1020 3876 1632 4692 2754 4692 C 3876 4692 4488 3876 4488 3876 C 4488 3876 4692 3060 4692 3060 C 4692 3060 4488 4284 2754 4284 C 1020 4284 816 3060 816 3060 C 816 3060 1020 3876 1020 3876 Z " style="fill:none;stroke:#010101;stroke-width:408;stroke-linejoin:round;stroke-linecap:butt" />
 <g>
 <defs>
-<radialGradient id="grad2" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.312500 0.000000 0.000000 0.416666 3264.00 4011.99)" cx="0" cy="0" r="6528">
+<radialGradient id="grad2" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.866026,0,0,1.1547,3264,4011.99)" cx="0" cy="0" r="2355.587214">
 <stop offset="39.61%" stop-color="#926103" />
 <stop offset="100.00%" stop-color="#ffc452" />
 </radialGradient>

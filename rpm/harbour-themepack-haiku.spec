@@ -14,7 +14,7 @@ Name:       harbour-themepack-haiku
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:        Haiku theme pack
 Version:        0.1.3
-Release:        4
+Release:        5
 Group:          Qt/Qt
 License:        GPLv3
 Packager:       fravaccaro
@@ -40,9 +40,27 @@ Haiku theme pack for Sailfish OS — DejaVu Sans fonts and Haiku-style icons for
 
 %preun
 if [ "$1" = "0" ]; then
-    rm -rf /home/defaultuser/.local/share/%{name}
-    rm -rf /home/defaultuser/.themepack/%{name}
+        rm -rf /home/defaultuser/.local/share/%{name}
+
+        # Undo the relocation done by %post. RPM recorded these paths as real
+        # directories, so it must find real directories here to remove them;
+        # left as symlinks it would fail on every packaged file underneath.
+        themepackdir=/home/defaultuser/.themepack/%{name}
+        for dir in jolla native apk overlay dyncal dynclock font font-nonlatin; do
+                shared=/usr/share/%{name}/$dir
+                stored=$themepackdir/$dir
+
+                if [ -L "$shared" ]; then
+                        rm -f "$shared"
+                        if [ -d "$stored" ]; then
+                                mv "$stored" "$shared"
+                        fi
+                fi
+        done
+
+        rm -rf "$themepackdir"
 fi
+:
 
 %build
 # >> build pre
@@ -78,36 +96,28 @@ desktop-file-install --delete-original       \
 # << files
 
 %post
-mkdir -p /home/defaultuser/.themepack/%{name}
-if [ -d "/usr/share/%{name}/jolla" ]; then
-        mv /usr/share/%{name}/jolla /home/defaultuser/.themepack/%{name}/
-        ln -s /home/defaultuser/.themepack/%{name}/jolla /usr/share/%{name}/
-fi
-if [ -d "/usr/share/%{name}/native" ]; then
-        mv /usr/share/%{name}/native /home/defaultuser/.themepack/%{name}/
-        ln -s /home/defaultuser/.themepack/%{name}/native /usr/share/%{name}/
-fi
-if [ -d "/usr/share/%{name}/apk" ]; then
-        mv /usr/share/%{name}/apk /home/defaultuser/.themepack/%{name}/
-        ln -s /home/defaultuser/.themepack/%{name}/apk /usr/share/%{name}/
-fi
-if [ -d "/usr/share/%{name}/overlay" ]; then
-        mv /usr/share/%{name}/overlay /home/defaultuser/.themepack/%{name}/
-        ln -s /home/defaultuser/.themepack/%{name}/overlay /usr/share/%{name}/
-fi
-if [ -d "/usr/share/%{name}/dyncal" ]; then
-        mv /usr/share/%{name}/dyncal /home/defaultuser/.themepack/%{name}
-        ln -s /home/defaultuser/.themepack/%{name}/dyncal /usr/share/%{name}/dyncal
-fi
-if [ -d "/usr/share/%{name}/dynclock" ]; then
-        mv /usr/share/%{name}/dynclock /home/defaultuser/.themepack/%{name}
-        ln -s /home/defaultuser/.themepack/%{name}/dynclock /usr/share/%{name}/
-fi
-if [ -d "/usr/share/%{name}/font" ]; then
-        mv /usr/share/%{name}/font /home/defaultuser/.themepack/%{name}/
-        ln -s /home/defaultuser/.themepack/%{name}/font /usr/share/%{name}/font
-fi
-if [ -d "/usr/share/%{name}/font-nonlatin" ]; then
-        mv /usr/share/%{name}/font-nonlatin /home/defaultuser/.themepack/%{name}/
-        ln -s /home/defaultuser/.themepack/%{name}/font-nonlatin /usr/share/%{name}/font-nonlatin
-fi
+themepackdir=/home/defaultuser/.themepack/%{name}
+mkdir -p "$themepackdir"
+for dir in jolla native apk overlay dyncal dynclock font font-nonlatin; do
+        shared=/usr/share/%{name}/$dir
+        stored=$themepackdir/$dir
+
+        if [ -L "$shared" ]; then
+                # Already relocated by an earlier install; RPM has just written
+                # the new payload straight through the symlink.
+                if [ "$(readlink "$shared")" = "$stored" ] && [ -d "$stored" ]; then
+                        continue
+                fi
+                rm -f "$shared"
+        fi
+
+        if [ -d "$shared" ]; then
+                rm -rf "$stored"
+                mv "$shared" "$stored"
+        fi
+
+        if [ -d "$stored" ]; then
+                ln -sfn "$stored" "$shared"
+        fi
+done
+:

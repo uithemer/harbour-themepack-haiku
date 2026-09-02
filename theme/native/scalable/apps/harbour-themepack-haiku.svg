@@ -1,7 +1,7 @@
 <svg width="64" height="64" viewBox="0 0 6528 6528" xmlns="http://www.w3.org/2000/svg">
 <g>
 <defs>
-<linearGradient id="id1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,0.40625,-0.453125,0,5100,3366)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="id1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,0.946864,-1.056118,0,5100,3366)" x1="-2800.824164" x2="2800.824164" y1="-2800.824164" y2="-2800.824164">
 <stop offset="0%" stop-color="#010101" stop-opacity="0.4" />
 <stop offset="100%" stop-color="#010101" stop-opacity="0.52" />
 </linearGradient>
@@ -47,7 +47,7 @@
 </g>
 <g>
 <defs>
-<linearGradient id="id6" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.021143,0.050544,-0.285809,0.119556,2326.91,4706.99)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="id6" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.162285,0.387955,-2.193752,0.917663,2326.91,4706.99)" x1="-850.488489" x2="850.488489" y1="-850.488489" y2="-850.488489">
 <stop offset="0%" stop-color="#ffd75f" />
 <stop offset="100%" stop-color="#a4370b" />
 </linearGradient>

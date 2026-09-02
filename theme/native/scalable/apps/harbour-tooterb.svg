@@ -4,7 +4,7 @@
 <path id="shape_2" d="M 1224 3570 C 1224 3570 816 3570 612 3060 C 612 2754 816 2448 1020 2448 C 1020 2448 1428 2652 1428 2652 " style="fill:none;stroke:#010101;stroke-width:408;stroke-linejoin:miter;stroke-linecap:butt" />
 <g>
 <defs>
-<linearGradient id="grad1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.228645 0.139640 -0.431627 0.706741 3963.66 473.08)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="grad1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.485419,0.296459,-0.916356,1.50043,3963.66,473.08)" x1="-3074.855632" x2="3074.855632" y1="-3074.855632" y2="-3074.855632">
 <stop offset="0.00%" stop-color="#ffe6b3" />
 <stop offset="100.00%" stop-color="#ffb365" />
 </linearGradient>
@@ -13,7 +13,7 @@
 </g>
 <g>
 <defs>
-<linearGradient id="grad2" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.223207 0.162077 -0.284601 0.391945 3549.83 2386.83)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="grad2" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.610639,0.443403,-0.778598,1.072265,3549.83,2386.83)" x1="-2386.17951" x2="2386.17951" y1="-2386.17951" y2="-2386.17951">
 <stop offset="0.00%" stop-color="#e6ad73" />
 <stop offset="100.00%" stop-color="#b3805a" />
 </linearGradient>
@@ -23,7 +23,7 @@
 <path id="shape_5" d="M 2652 1224 C 1428 1224 1326 3162 1326 3672 C 1122 3774 612 4080 612 4080 C 612 4080 408 4284 612 4692 C 816 5100 1020 5100 1020 5100 C 1020 5100 1836 4488 2448 4896 C 2448 4896 2142 5712 2142 5712 C 2142 5712 2040 5916 2448 6120 C 2856 6323 3060 6120 3060 6120 C 3060 6120 4284 4080 4284 4080 C 4284 4080 3978 2856 3774 2652 C 4080 3162 4386 2958 4284 2754 C 4488 2958 4896 2856 4896 2652 C 4896 2448 4080 1224 3468 1836 C 3366 1428 3162 1224 2652 1224 Z " style="fill:none;stroke:#010101;stroke-width:408;stroke-linejoin:miter;stroke-linecap:butt" />
 <g>
 <defs>
-<linearGradient id="grad3" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.228645 0.139640 -0.431627 0.706741 3963.66 473.08)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="grad3" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.485419,0.296459,-0.916356,1.50043,3963.66,473.08)" x1="-3074.855632" x2="3074.855632" y1="-3074.855632" y2="-3074.855632">
 <stop offset="0.00%" stop-color="#ffe6b3" />
 <stop offset="100.00%" stop-color="#ffb365" />
 </linearGradient>
@@ -32,7 +32,7 @@
 </g>
 <g>
 <defs>
-<linearGradient id="grad4" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.223207 0.162077 -0.284601 0.391945 3549.83 2386.83)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="grad4" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.610639,0.443403,-0.778598,1.072265,3549.83,2386.83)" x1="-2386.17951" x2="2386.17951" y1="-2386.17951" y2="-2386.17951">
 <stop offset="0.00%" stop-color="#e6ad73" />
 <stop offset="100.00%" stop-color="#b3805a" />
 </linearGradient>
@@ -43,7 +43,7 @@
 <path id="shape_9" d="M 1938 1836 C 1734 1836 1632 1836 1632 1020 C 1632 1020 2040 1020 2040 816 C 2040 612 1632 612 1632 612 C 1632 612 1632 408 1428 408 C 1224 408 1224 612 1428 816 C 1224 1020 1020 1224 1020 1632 C 1020 1965 1326 2856 2142 2856 " style="fill:none;stroke:#010101;stroke-width:408;stroke-linejoin:miter;stroke-linecap:butt" />
 <g>
 <defs>
-<linearGradient id="grad5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.228645 0.139640 -0.431627 0.706741 3963.66 473.08)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="grad5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.485419,0.296459,-0.916356,1.50043,3963.66,473.08)" x1="-3074.855632" x2="3074.855632" y1="-3074.855632" y2="-3074.855632">
 <stop offset="0.00%" stop-color="#ffe6b3" />
 <stop offset="100.00%" stop-color="#ffb365" />
 </linearGradient>
@@ -52,7 +52,7 @@
 </g>
 <g>
 <defs>
-<linearGradient id="grad6" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.223207 0.162077 -0.284601 0.391945 3549.83 2386.83)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="grad6" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.610639,0.443403,-0.778598,1.072265,3549.83,2386.83)" x1="-2386.17951" x2="2386.17951" y1="-2386.17951" y2="-2386.17951">
 <stop offset="0.00%" stop-color="#e6ad73" />
 <stop offset="100.00%" stop-color="#b3805a" />
 </linearGradient>
@@ -65,7 +65,7 @@
 <path id="shape_15" d="M 2652 3264 C 2652 3264 2652 4080 2448 4284 C 2448 4284 2346 4488 2754 4692 C 3162 4896 3264 4692 3264 4692 C 3264 4692 3774 4080 3672 3264 " transform="matrix(1.000000 0.000000 0.000000 0.893974 0.00 528.88)" style="fill:none;stroke:#010101;stroke-width:408;stroke-linejoin:round;stroke-linecap:round" />
 <g>
 <defs>
-<linearGradient id="grad7" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.228645 0.139640 -0.431627 0.706741 3963.66 473.08)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="grad7" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.485419,0.296459,-0.916356,1.50043,3963.66,473.08)" x1="-3074.855632" x2="3074.855632" y1="-3074.855632" y2="-3074.855632">
 <stop offset="0.00%" stop-color="#ffe6b3" />
 <stop offset="100.00%" stop-color="#ffb365" />
 </linearGradient>
@@ -74,7 +74,7 @@
 </g>
 <g>
 <defs>
-<linearGradient id="grad8" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.223207 0.162077 -0.284601 0.391945 3549.83 2386.83)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="grad8" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.610639,0.443403,-0.778598,1.072265,3549.83,2386.83)" x1="-2386.17951" x2="2386.17951" y1="-2386.17951" y2="-2386.17951">
 <stop offset="0.00%" stop-color="#e6ad73" />
 <stop offset="100.00%" stop-color="#b3805a" />
 </linearGradient>
@@ -83,7 +83,7 @@
 </g>
 <g>
 <defs>
-<linearGradient id="grad9" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.223207 0.162077 -0.284601 0.391945 3549.83 2386.83)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="grad9" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.610639,0.443403,-0.778598,1.072265,3549.83,2386.83)" x1="-2386.17951" x2="2386.17951" y1="-2386.17951" y2="-2386.17951">
 <stop offset="0.00%" stop-color="#e6ad73" />
 <stop offset="100.00%" stop-color="#b3805a" />
 </linearGradient>

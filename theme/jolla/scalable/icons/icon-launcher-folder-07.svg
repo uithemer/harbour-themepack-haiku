@@ -45,7 +45,7 @@
            M20 50V52H18V50H20z
            M12 56V48H16V56H12z"
   />
-  <radialGradient id="gradient4" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="64" gradientTransform="matrix(0.2814,0,0,0.2879,15.5238,50.8571)">
+  <radialGradient id="gradient4" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="18.216413" gradientTransform="matrix(0.988647,0,0,1.011483,15.5238,50.8571)">
    <stop offset="0.1969" stop-color="#ffffff"/>
    <stop offset="0.5871" stop-color="#858585"/>
   </radialGradient>

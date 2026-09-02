@@ -33,7 +33,7 @@
   <path style="fill:url(#gradient2)"
         d="M10 18C10 12.47 17.16 8 26 8C34.83 8 42 12.47 42 18C42 23.52 34.83 28 26 28C17.16 28 10 23.52 10 18z"
   />
-  <radialGradient id="gradient3" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="64" gradientTransform="matrix(0.2858,0.0444,-0.0282,0.182,23.9272,16.0265)">
+  <radialGradient id="gradient3" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="14.771067" gradientTransform="matrix(1.238313,0.192376,-0.122185,0.788569,23.9272,16.0265)">
    <stop offset="0" stop-color="#eaeaea"/>
    <stop offset="0.5776" stop-color="#bdbdbd"/>
    <stop offset="1" stop-color="#535353"/>

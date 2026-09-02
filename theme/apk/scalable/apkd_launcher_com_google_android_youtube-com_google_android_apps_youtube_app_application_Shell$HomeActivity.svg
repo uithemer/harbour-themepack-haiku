@@ -3,7 +3,7 @@
 <path id="shape_1" d="M 612 816 C 612 816 612 4488 612 4488 C 612 4488 4080 6324 4080 6324 C 4080 6324 5100 5100 5100 5100 C 5100 5100 5100 1428 5100 1428 C 5100 1428 1632 204 1632 204 C 1632 204 612 816 612 816 Z " style="stroke-width:408;stroke-linejoin:miter;stroke-linecap:butt;stroke:#010000;fill:none;" />
 <g>
 <defs>
-<linearGradient id="id1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.347622,0.081512,-0.130454,0.556335,2829.8,273.24)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="id1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.769596,0.180458,-0.28881,1.231662,2829.8,273.24)" x1="-2948.661194" x2="2948.661194" y1="-2948.661194" y2="-2948.661194">
 <stop offset="0%" stop-color="#ffffff" />
 <stop offset="100%" stop-color="#d3d3d3" />
 </linearGradient>
@@ -22,7 +22,7 @@
 </g>
 <g>
 <defs>
-<linearGradient id="id3" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.290339,0.05198,-0.080863,0.451675,5509.69,2788.05)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="id3" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.789203,0.141293,-0.219803,1.227749,5509.69,2788.05)" x1="-2401.577708" x2="2401.577708" y1="-2401.577708" y2="-2401.577708">
 <stop offset="0%" stop-color="#474747" />
 <stop offset="100%" stop-color="#a5a0a0" />
 </linearGradient>
@@ -31,7 +31,7 @@
 </g>
 <g>
 <defs>
-<linearGradient id="id4" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-0.288311,-0.28179,0.320728,-0.32815,1365.03,4453.06)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="id4" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-0.670333,-0.655171,0.745703,-0.76296,1365.03,4453.06)" x1="-2807.701814" x2="2807.701814" y1="-2807.701814" y2="-2807.701814">
 <stop offset="0%" stop-color="#909090" />
 <stop offset="100%" stop-color="#d4d4d4" />
 </linearGradient>
@@ -40,7 +40,7 @@
 </g>
 <g>
 <defs>
-<linearGradient id="id5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.077273,0.219273,-0.543732,0.191615,3464.39,3036.34)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="id5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.211068,0.598936,-1.485183,0.523389,3464.39,3036.34)" x1="-2389.929354" x2="2389.929354" y1="-2389.929354" y2="-2389.929354">
 <stop offset="0%" stop-color="#242222" />
 <stop offset="100%" stop-color="#9a9a9a" />
 </linearGradient>
@@ -49,7 +49,7 @@
 </g>
 <g>
 <defs>
-<linearGradient id="id6" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.301586,0,0,0.523808,2040,2856)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="id6" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.758786,0,0,1.317894,2040,2856)" x1="-2594.608269" x2="2594.608269" y1="-2594.608269" y2="-2594.608269">
 <stop offset="0%" stop-color="#d4cece" />
 <stop offset="34.51%" stop-color="#f3f3f3" />
 <stop offset="100%" stop-color="#d9d9d9" />
@@ -59,7 +59,7 @@
 </g>
 <g>
 <defs>
-<linearGradient id="id7" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-0.032851,0.065391,-0.553699,-0.27817,3447.48,5501.63)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="id7" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-0.154271,0.307081,-2.600211,-1.306307,3447.48,5501.63)" x1="-1390.097617" x2="1390.097617" y1="-1390.097617" y2="-1390.097617">
 <stop offset="19.61%" stop-color="#4b4b4b" />
 <stop offset="70.2%" stop-color="#dbd8d8" />
 </linearGradient>
@@ -78,7 +78,7 @@
 </g>
 <g>
 <defs>
-<linearGradient id="id9" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.071835,-0.087355,0.121981,0.083723,-1878.3,2849.62)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="id9" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.556378,-0.676583,0.944769,0.648453,-1878.3,2849.62)" x1="-842.842717" x2="842.842717" y1="-842.842717" y2="-842.842717">
 <stop offset="5.1%" stop-color="#d3d3d3" />
 <stop offset="99.61%" stop-color="#555555" />
 </linearGradient>
@@ -105,7 +105,7 @@
 </g>
 <g>
 <defs>
-<linearGradient id="id12" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.035428,0.062148,-0.079905,0.04555,2021.93,4434.32)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="id12" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.436761,0.766169,-0.98508,0.561547,2021.93,4434.32)" x1="-529.520254" x2="529.520254" y1="-529.520254" y2="-529.520254">
 <stop offset="0%" stop-color="#f3f3f3" />
 <stop offset="100%" stop-color="#2e2e2e" />
 </linearGradient>
@@ -114,7 +114,7 @@
 </g>
 <g>
 <defs>
-<linearGradient id="id13" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.026674,0.075847,-0.173534,0.061029,2293.74,4268.84)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="id13" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.219334,0.623671,-1.426927,0.501826,2293.74,4268.84)" x1="-793.895007" x2="793.895007" y1="-793.895007" y2="-793.895007">
 <stop offset="0.39%" stop-color="#bebebe" />
 <stop offset="100%" stop-color="#6d6d6d" />
 </linearGradient>

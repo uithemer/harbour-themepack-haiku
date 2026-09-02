@@ -16,7 +16,7 @@
 <path id="shape_4" d="M 2244 3060 C 1836 3060 816 4080 1224 4488 C 1632 4896 2575 4615 2779 4411 C 2860 4330 2631 4101 2656 3855 C 2694 3478 2613 3060 2244 3060 Z " style="stroke-width:408;stroke-linejoin:miter;stroke-linecap:butt;stroke:#000000;fill:none;" />
 <g>
 <defs>
-<radialGradient id="id2" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.168118,0.076472,-0.12939,0.284454,1893.97,3352.53)" cx="0" cy="0" r="6528">
+<radialGradient id="id2" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.699784,0.318311,-0.53858,1.184028,1893.97,3352.53)" cx="0" cy="0" r="1568.304274">
 <stop offset="0%" stop-color="#ffe7dc" />
 <stop offset="100%" stop-color="#e29c7a" />
 </radialGradient>

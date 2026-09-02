@@ -1,7 +1,7 @@
 <svg width="64" height="64" viewBox="0 0 6528 6528" xmlns="http://www.w3.org/2000/svg">
 <g>
 <defs>
-<radialGradient id="id1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.5,0,0,0.34375,3060,5508)" cx="0" cy="0" r="6528">
+<radialGradient id="id1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.206045,0,0,0.829156,3060,5508)" cx="0" cy="0" r="2706.365829">
 <stop offset="0%" stop-color="#ffc000" />
 <stop offset="34.9%" stop-color="#ffc000" stop-opacity="0.9" />
 <stop offset="38.82%" stop-color="#ffc000" stop-opacity="0" />
@@ -19,7 +19,7 @@
 <path id="shape_2" d="M 5475.36 807.96 C 5542.07 688.65 5471.89 485.42 4889.25 298.15 C 4306.61 110.87 4124.81 232.05 4115.87 370.98 C 4115.87 370.98 3852.3 2857.61 3852.3 2857.61 C 3846.25 2912.39 3760.13 2902.56 3760.13 2902.56 C 3821.09 2954.72 3918.2 2985.93 4015.31 3017.15 C 4112.41 3048.36 4209.52 3079.57 4278.64 3067.13 C 4278.64 3067.13 4212.14 3028.94 4240.73 2982.46 C 4240.73 2982.46 5475.36 807.96 5475.36 807.96 Z M 3370.24 3024.09 C 3370.24 3024.09 3671.97 4085.32 3671.97 4085.32 C 3671.97 4085.32 4535.52 3398.63 4535.52 3398.63 M 4046.52 2920.04 C 3915.14 2877.81 3379.79 2706.79 3370.24 3024.09 C 3367.55 3156.62 3778.86 3262.57 3921.67 3308.47 C 4057.81 3352.23 4458.58 3507.3 4535.52 3398.63 C 4707.23 3132.41 4178.82 2959.41 4046.52 2920.04 Z M 4046.52 2920.04 C 3941.49 2887.33 3528.61 2782.98 3529.77 2861.08 C 3532.15 2935.38 3872.71 3078.45 3984.09 3114.25 C 4091.67 3148.83 4452.46 3232.23 4500.84 3173.21 C 4547.29 3110.41 4151.21 2950.54 4046.52 2920.04 Z " style="stroke-width:408;stroke-linejoin:round;stroke-linecap:round;stroke:#010101;fill:none;" />
 <g>
 <defs>
-<linearGradient id="id2" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.014875,0.004781,-0.019125,0.059502,3671.97,4085.32)" x1="9922" x2="-9922" y1="-6528" y2="-6528">
+<linearGradient id="id2" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.476008,0.152995,-0.612011,1.904097,3671.97,4085.32)" x1="310.057162" x2="-310.057162" y1="-203.996488" y2="-203.996488">
 <stop offset="0%" stop-color="#c80000" />
 <stop offset="47.84%" stop-color="#ff0606" />
 <stop offset="100%" stop-color="#ff9090" />
@@ -29,7 +29,7 @@
 </g>
 <g>
 <defs>
-<radialGradient id="id3" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.167903,-0.009053,0.004887,0.090637,3509.72,3056.72)" cx="0" cy="0" r="6528">
+<radialGradient id="id3" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.359083,-0.073279,0.039558,0.733657,3509.72,3056.72)" cx="0" cy="0" r="806.477961">
 <stop offset="0%" stop-color="#ff6767" />
 <stop offset="49.41%" stop-color="#ff0606" />
 <stop offset="100%" stop-color="#c80000" />
@@ -39,7 +39,7 @@
 </g>
 <g>
 <defs>
-<radialGradient id="id4" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.074377,0.023907,-0.014344,0.044626,4239.22,3028.85)" cx="0" cy="0" r="6528">
+<radialGradient id="id4" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.229066,0.395059,-0.237032,0.737437,4239.22,3028.85)" cx="0" cy="0" r="395.042178">
 <stop offset="0%" stop-color="#c80000" />
 <stop offset="61.96%" stop-color="#ff0000" />
 <stop offset="100%" stop-color="#ff7575" />
@@ -49,7 +49,7 @@
 </g>
 <g>
 <defs>
-<linearGradient id="id5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.029751,0.009563,-0.076501,0.238008,3952.88,3211.36)" x1="9922" x2="-9922" y1="-6528" y2="-6528">
+<linearGradient id="id5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.336593,0.108193,-0.865507,2.692744,3952.88,3211.36)" x1="876.992276" x2="-876.992276" y1="-577.001167" y2="-577.001167">
 <stop offset="0%" stop-color="#c80000" />
 <stop offset="49.41%" stop-color="#ff0505" />
 <stop offset="100%" stop-color="#ff9090" />

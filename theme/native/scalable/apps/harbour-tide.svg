@@ -1,7 +1,7 @@
 <svg width="64" height="64" viewBox="0 0 6528 6528" xmlns="http://www.w3.org/2000/svg">
 <g>
 <defs>
-<radialGradient id="id1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.336914,0,0,0.136719,4182,5635.5)" cx="0" cy="0" r="6528">
+<radialGradient id="id1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.569803,0,0,0.637023,4182,5635.5)" cx="0" cy="0" r="1401.051538">
 <stop offset="49.02%" stop-color="#010000" stop-opacity="0.27" />
 <stop offset="100%" stop-color="#010000" stop-opacity="0" />
 </radialGradient>
@@ -11,7 +11,7 @@
 <path id="shape_1" d="M 4080 5202 C 4080 5202 4080 5712 4080 5712 C 4080 6064 3726 6324 3264 6324 C 2801 6324 2448 6064 2448 5712 C 2448 5712 2448 5202 2448 5202 " style="stroke-width:408;stroke-linejoin:miter;stroke-linecap:butt;stroke:#010000;fill:none;" />
 <g>
 <defs>
-<radialGradient id="id2" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.215806,0.038075,-0.024601,0.139437,2846.11,5327.46)" cx="0" cy="0" r="6528">
+<radialGradient id="id2" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.225142,0.216154,-0.139661,0.791591,2846.11,5327.46)" cx="0" cy="0" r="1149.892409">
 <stop offset="43.92%" stop-color="#f2f2f2" />
 <stop offset="63.92%" stop-color="#8e8e8e" />
 <stop offset="83.14%" stop-color="#e1e1e1" />
@@ -23,7 +23,7 @@
 <path id="shape_3" d="M 4386 4386 C 4386 4386 4386 4590 4386 4590 C 4386 5074 3881 5508 3264 5508 C 2646 5508 2142 5074 2142 4590 C 2142 4590 2142 4386 2142 4386 M 3672 4590 C 4715 4399 5508 3540 5508 2448 C 5507 1217 4502 204 3264 204 C 2025 204 1020 1217 1020 2448 C 1020 3540 1812 4399 2856 4590 " style="stroke-width:408;stroke-linejoin:miter;stroke-linecap:butt;stroke:#010000;fill:none;" />
 <g>
 <defs>
-<radialGradient id="id3" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.46875,0,0,0.46875,2448,1632)" cx="0" cy="0" r="6528">
+<radialGradient id="id3" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,1,2448,1632)" cx="0" cy="0" r="3060">
 <stop offset="19.22%" stop-color="#ffffff" />
 <stop offset="83.53%" stop-color="#ffe500" />
 <stop offset="100%" stop-color="#ffc800" />
@@ -33,7 +33,7 @@
 </g>
 <g>
 <defs>
-<radialGradient id="id4" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.46875,0,0,0.46875,2448,1632)" cx="0" cy="0" r="6528">
+<radialGradient id="id4" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,1,2448,1632)" cx="0" cy="0" r="3060">
 <stop offset="19.22%" stop-color="#ffffff" />
 <stop offset="83.53%" stop-color="#ffe500" />
 <stop offset="100%" stop-color="#ffc800" />
@@ -43,7 +43,7 @@
 </g>
 <g>
 <defs>
-<radialGradient id="id5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.46875,0,0,0.46875,2448,1632)" cx="0" cy="0" r="6528">
+<radialGradient id="id5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,1,2448,1632)" cx="0" cy="0" r="3060">
 <stop offset="0%" stop-color="#ffe6a5" />
 <stop offset="88.63%" stop-color="#ffbb03" />
 <stop offset="100%" stop-color="#ffbf00" />
@@ -53,7 +53,7 @@
 </g>
 <g>
 <defs>
-<radialGradient id="id6" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.46875,0,0,0.46875,2448,1632)" cx="0" cy="0" r="6528">
+<radialGradient id="id6" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,1,2448,1632)" cx="0" cy="0" r="3060">
 <stop offset="0%" stop-color="#ffe6a5" />
 <stop offset="88.63%" stop-color="#ffbb03" />
 <stop offset="100%" stop-color="#ffbf00" />

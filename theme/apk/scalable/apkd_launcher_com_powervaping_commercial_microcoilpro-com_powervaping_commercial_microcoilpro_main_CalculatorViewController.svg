@@ -3,7 +3,7 @@
 <path id="shape_1" d="M 204 3468 C 204 3468 204 3876 204 3876 C 204 3876 3060 5304 3060 5304 C 3060 5304 5916 2448 5916 2448 C 5916 2448 5916 2040 5916 2040 C 5916 2040 3264 1020 3264 1020 C 3264 1020 204 3468 204 3468 Z " style="stroke-width:408;stroke-linejoin:miter;stroke-linecap:butt;stroke:#010000;fill:none;" />
 <g>
 <defs>
-<linearGradient id="id1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.347622,0.081512,-0.130454,0.556335,2829.8,273.24)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="id1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.769596,0.180458,-0.28881,1.231662,2829.8,273.24)" x1="-2948.661194" x2="2948.661194" y1="-2948.661194" y2="-2948.661194">
 <stop offset="0%" stop-color="#ffffff" />
 <stop offset="100%" stop-color="#d3d3d3" />
 </linearGradient>
@@ -32,7 +32,7 @@
 </g>
 <g>
 <defs>
-<linearGradient id="id4" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.290339,0.05198,-0.080863,0.451675,5509.69,2788.05)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="id4" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.789203,0.141293,-0.219803,1.227749,5509.69,2788.05)" x1="-2401.577708" x2="2401.577708" y1="-2401.577708" y2="-2401.577708">
 <stop offset="0%" stop-color="#474747" />
 <stop offset="100%" stop-color="#a5a0a0" />
 </linearGradient>
@@ -41,7 +41,7 @@
 </g>
 <g>
 <defs>
-<linearGradient id="id5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-0.288311,-0.28179,0.320728,-0.32815,1365.03,4453.06)" x1="-6528" x2="6528" y1="-6528" y2="-6528">
+<linearGradient id="id5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-0.670333,-0.655171,0.745703,-0.76296,1365.03,4453.06)" x1="-2807.701814" x2="2807.701814" y1="-2807.701814" y2="-2807.701814">
 <stop offset="0%" stop-color="#909090" />
 <stop offset="100%" stop-color="#d4d4d4" />
 </linearGradient>

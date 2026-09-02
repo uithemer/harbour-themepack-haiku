@@ -46,14 +46,14 @@
   <path style="fill:url(#gradient3)"
         d="M55 30C54 29 52 28 52 28C42 38 38 44 38 58C38 58 40 59 42 57L56 43V33C56 33 56 31 55 30z"
   />
-  <radialGradient id="gradient4" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="64" gradientTransform="matrix(0.165,0.118,-0.269,0.3761,44.6696,44.5417)">
+  <radialGradient id="gradient4" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="19.600986" gradientTransform="matrix(0.538748,0.385287,-0.878323,1.22802,44.6696,44.5417)">
    <stop offset="0.0039" stop-color="#838383"/>
    <stop offset="1" stop-color="#adadad"/>
   </radialGradient>
   <path style="fill:url(#gradient4)"
         d="M42 57L56 43V33L54 31C46 39 42 47 42 57z"
   />
-  <radialGradient id="gradient5" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="64" gradientTransform="matrix(0.0312,0,0,0.0468,33,43)">
+  <radialGradient id="gradient5" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="2.445571" gradientTransform="matrix(0.816497,0,0,1.224745,33,43)">
    <stop offset="0" stop-color="#ffe3e3"/>
    <stop offset="1" stop-color="#dd0505"/>
   </radialGradient>
@@ -61,7 +61,7 @@
         d="M32 42C34 40 37 43 35 45C33 47 30 44 32 42z"
         transform="matrix(1,0,0,1,5,-4)"
   />
-  <radialGradient id="gradient6" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="64" gradientTransform="matrix(0.0312,0,0,0.0468,33,43)">
+  <radialGradient id="gradient6" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="2.445571" gradientTransform="matrix(0.816497,0,0,1.224745,33,43)">
    <stop offset="0" stop-color="#35ff06"/>
    <stop offset="0.9843" stop-color="#1e9303"/>
   </radialGradient>
@@ -80,7 +80,7 @@
   <path style="fill:none; stroke:#000000; stroke-width:1"
         d="M8 48L24 56"
   />
-  <radialGradient id="gradient7" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="64" gradientTransform="matrix(0.5295,-0.3272,0.1957,0.3167,17.1527,18.9224)">
+  <radialGradient id="gradient7" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="30.808253" gradientTransform="matrix(1.099965,-0.679714,0.40654,0.657902,17.1527,18.9224)">
    <stop offset="0" stop-color="#909090"/>
    <stop offset="1" stop-color="#3c3c3c"/>
   </radialGradient>
